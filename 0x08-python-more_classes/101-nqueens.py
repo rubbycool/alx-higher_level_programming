@@ -20,7 +20,7 @@ if __name__ == "__main__":
         print("N must be at least 4")
         exit(1)
 
-    # initialize the answer list
+    # initialize the answer lists
     for i in range(n):
         a.append([i, None])
 
