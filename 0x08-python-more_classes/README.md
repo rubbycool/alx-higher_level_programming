@@ -1,1 +1,5 @@
-0x08-python-more_classes
+#PYTHON MORE CLASSES
+
+#Learning Objectives
+
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
