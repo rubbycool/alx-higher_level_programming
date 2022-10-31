@@ -31,10 +31,10 @@ Create a file named `models/base.py`:
 * Class `Base`:
     * private class attribute `__nb_objects = 0`
     * class constructor: `def __init__(self, id=None):`:
-        * if `id` is not `None`, assign the public instance attribute `id` with this argument value - you can assume `id` is an integer and you don’t need to test the type of it
+        * if `id` is not `None`, assign the public instance attribute `id` with this argument value - you can assume `id` is an integer and you do not need to test the type of it.
         * otherwise, increment `__nb_objects` and assign the new value to the public instance attribute `id`
 
-This class will be the “base” of all other classes in this project. Its main purpose is to manage an `id` attribute in all its derived classes.
+This class will be the bases of all other classes in this project. Its main purpose is to manage an `id` attribute in all its derived classes.
 
 File(s): [`models/base.py`](./models/base.py) [`models/__init__.py`](./models/__init__.py)
 
@@ -98,7 +98,7 @@ File(s): [`models/rectangle.py`](./models/rectangle.py)
 ### :white_check_mark: 9. Update #1
 Update the class `Rectangle` by updating the public method `def update(self, *args):` by changing the prototype to `update(self, *args, **kwargs)` that assigns a key/value argument to attributes:
 * `**kwargs` can be thought of as a double pointer to a dictionary: key/value
-    * As Python doesn’t have pointers, `**kwargs` is not literally a double pointer – describing it as such is just a way of explaining its behavior in terms you’re already familiar with
+    * As Python doesn't have pointers, `**kwargs` is not literally a double pointer, describing it as such is just a way of explaining its behavior in terms you are already familiar with
 * `**kwargs` must be skipped if `*args` exists and is not empty
 * Each key in this dictionary represents an attribute to the instance
 
