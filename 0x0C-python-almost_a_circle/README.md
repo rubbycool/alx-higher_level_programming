@@ -1,5 +1,5 @@
-# (331) 0x0C. Python - Almost a circle
-Foundations > Higher-level programming > Python
+# 0x0C. Python - Almost a circle
+ALX Higher-level programming > Python
 
 ---
 
