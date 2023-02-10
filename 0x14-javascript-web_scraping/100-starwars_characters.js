@@ -3,7 +3,7 @@
 
 const request = require('request');
 const film = process.argv[2];
-const url = `https://swapi-api.hbtn.io/api/films/${film}`;
+const url = `https://swapi-api.alx-tools.com/api/people/${film}`;
 request(url, (err, res, body) => {
   if (!err) {
     const characters = JSON.parse(body).characters;
